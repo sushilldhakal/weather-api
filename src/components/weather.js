@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "semantic-ui-react";
 import moment from "moment";
 import "./styles.css";
-
+import "semantic-ui-css/semantic.min.css";
 const refresh = () => {
   window.location.reload();
 };
